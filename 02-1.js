@@ -4,7 +4,6 @@ const checkAscending = (report) => {
   for (let i = 0; i < report.length - 1; i++) {
     const currentNumber = +report[i];
     const nextNumber = +report[i + 1];
-    console.log(currentNumber, nextNumber)
     if (currentNumber >= nextNumber || nextNumber - currentNumber > 3) {
       return false;
     }
