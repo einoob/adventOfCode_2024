@@ -7,7 +7,7 @@ const multiplyNumbers = (string) => {
     return 0;
   }
   const rightHandNUmber = pairs[1].split(")")[0];
-  if (Number.isInteger(+rightHandNUmber)) {
+  if (Number.isInteger(+leftHandNUmber) && Number.isInteger(+rightHandNUmber)) {
     return +leftHandNUmber * +rightHandNUmber;
   } else {
     return 0;
