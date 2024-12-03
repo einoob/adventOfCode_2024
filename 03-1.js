@@ -7,13 +7,11 @@ const multiplyNumbers = (string) => {
     return 0;
   }
   const rightHandNUmber = pairs[1].split(")")[0];
-  //console.log(leftHandNUmber, rightHandNUmber);
   if (Number.isInteger(+rightHandNUmber)) {
     return +leftHandNUmber * +rightHandNUmber;
   } else {
     return 0;
   }
-  //console.log(pairs)
 };
 
 const calculateTotalSum = (string) => {
