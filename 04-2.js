@@ -45,7 +45,6 @@ const findXmases = (input) => {
       }
     }
   }
-
   return sum;
 };
 

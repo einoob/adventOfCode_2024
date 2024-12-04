@@ -100,7 +100,6 @@ const findHorizontals = (array) => {
 
 const findXmases = (input) => {
   const array = input.split("\n").map((line) => line.split(""));
-  //console.log(array)
   let sum = 0;
   sum += findHorizontals(array);
   sum += findVerticals(array);
